@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Oluwabukunmi & Ifeanyi</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="vb2026/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="vb2026/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="vb2026/favicon-16x16.png">
+    <link rel="manifest" href="vb2026/site.webmanifest">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="nav-container">
+
+      <img src="images/vb2026.webp" 
+          alt="Oluwabukunmi & Ifeanyi Wedding" 
+          class="logo">
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order-of-program.html">Order of Program</a></li>
+        <li><a href="food-menu.html">Food Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <div class="menu-toggle" id="mobile-menu">☰</div>
+  </div>
+</header>
+
+<!-- GALLERY HERO -->
+<section class="gallery-hero">
+  <div class="gallery-hero-content">
+    <h1 data-aos="fade-up">Our Gallery</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Moments we will cherish forever</p>
+  </div>
+</section>
+
+<!-- GALLERY CATEGORIES -->
+<section class="gallery-section">
+  <div class="container">
+
+    <div class="gallery-grid">
+
+      <!-- Couples Pictures -->
+      <div class="gallery-card" data-aos="fade-up">
+        <div class="gallery-image">
+          <img src="images/wed2.webp" alt="Couples Pictures">
+        </div>
+        <div class="gallery-info">
+          <h3>Couples Pictures</h3>
+          <p>Beautiful moments of us together</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Wife's Pictures -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="gallery-image">
+          <img src="images/wed2.webp" alt="Wife's Pictures">
+        </div>
+        <div class="gallery-info">
+          <h3>Wife's Pictures</h3>
+          <p>Oluwabukunmi’s elegant portraits</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Husband's Pictures -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="gallery-image">
+          <img src="images/wed2.webp" alt="Husband's Pictures">
+        </div>
+        <div class="gallery-info">
+          <h3>Husband's Pictures</h3>
+          <p>Ifeanyi’s charming moments</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Aso Ebi Girls -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="gallery-image">
+          <img src="images/wed2.webp" alt="Aso Ebi Girls">
+        </div>
+        <div class="gallery-info">
+          <h3>Aso Ebi Girls</h3>
+          <p>Our beautiful bridesmaids & friends</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Family Pictures -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="gallery-image">
+          <img src="images/wed1.webp" alt="Family Pictures">
+        </div>
+        <div class="gallery-info">
+          <h3>Family Pictures</h3>
+          <p>Cherished moments with loved ones</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Groom's Father -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="gallery-image">
+          <img src="images/wed1.webp" alt="Groom's Father">
+        </div>
+        <div class="gallery-info">
+          <h3>Groom's Father</h3>
+          <p>Special moments with Dad</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Groom's Mother -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="600">
+        <div class="gallery-image">
+          <img src="images/wed2.webp" alt="Groom's Mother">
+        </div>
+        <div class="gallery-info">
+          <h3>Groom's Mother</h3>
+          <p>Beautiful memories with Mum</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Bride's Mother -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="700">
+        <div class="gallery-image">
+          <img src="images/wed1.webp" alt="Bride's Mother">
+        </div>
+        <div class="gallery-info">
+          <h3>Bride's Mother</h3>
+          <p>Loving moments with Mum</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- Other Moments -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="800">
+        <div class="gallery-image">
+          <img src="images/wed1.webp" alt="Other Moments">
+        </div>
+        <div class="gallery-info">
+          <h3>Other Moments</h3>
+          <p>More beautiful memories from our day</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+      <!-- New: Videos Category -->
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="900">
+        <div class="gallery-image">
+          <img src="images/wed1.webp" alt="Wedding Videos">
+        </div>
+        <div class="gallery-info">
+          <h3>Wedding Videos</h3>
+          <p>Heartwarming video moments from our day</p>
+          <button onclick="showToast()" class="view-btn">Click to View</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Toast Notification -->
+<div id="toast" class="toast">
+  <span>Wedding images not available yet</span>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/vb20262.webp" 
+             alt="Oluwabukunmi & Ifeanyi Wedding" 
+             class="footer-logo">
+        <p class="footer-tagline">Oluwabukunmi &amp; Ifeanyi • April 18, 2026</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="#our-story">Our Story</a>
+        <a href="order-of-program.html">Order of Program</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+    </div>
+
+    <!-- Divider -->
+    <div class="footer-divider"></div>
+
+    <div class="footer-promotion">
+      <div class="promotion-content">
+        <h3>Love this website design?</h3>
+        <p>
+          Interested in a beautiful, modern website for your wedding, business, 
+          e-commerce store, school, event, or company? 
+          I create elegant, fully responsive digital experiences just like this one.
+        </p>
+        
+        <div class="contact-actions">
+          <a href="https://wa.me/2347016794490" target="_blank" class="btn-whatsapp">
+            💬 Chat on WhatsApp
+          </a>
+          <a href="https://codewithskye.github.io" target="_blank" class="btn-portfolio">
+            Visit My Portfolio
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 Oluwabukunmi &amp; Ifeanyi. All Rights Reserved.</p>
+      <p class="developer-credit">
+        Designed &amp; Developed with ❤️ by 
+        <a href="https://codewithskye.github.io" target="_blank">CodeWithSkye</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
